@@ -1,0 +1,15 @@
+.about-bar{
+}
+
+.carousel{
+	width: 100%;
+
+}
+.dot{
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+    border:2px solid black;
+    width:15px;
+    height:15px;
+}

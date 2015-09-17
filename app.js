@@ -1,0 +1,1 @@
+var galleryThumbs = ["fish.jpg", "bull.jpg", "bird.jpg","mushroom.jpg","pig.jpg"];
