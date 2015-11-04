@@ -1,1 +1,1 @@
-var galleryThumbs = ["fish.jpg", "bull.jpg", "bird.jpg","mushroom.jpg","pig.jpg"];
+var galleryThumbs = ["assets/fish.jpg", "assets/bull.jpg", "assets/bird.jpg","assets/mushroom.jpg","assets/pig.jpg"];
