@@ -1,5 +1,29 @@
-.about-bar{
+h2, h3{
+	margin-top: 0px;
+}
+h2{
 
+}
+h3{
+
+}
+.darkHR{
+	height: 1px;
+	background-color: #555;
+
+}
+.lightHR{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*font-weight: ;*/
+}
+
+.container{
+	margin-top: 50px;
+}
+
+.about-bar{
+	/*border: 1px solid black;*/
 }
 
 .carousel{

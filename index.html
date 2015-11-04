@@ -13,30 +13,40 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Alex Vercoutere</title>
 </head>
-<body>
+<body ng-app="alexApp">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12">
-				<img src="assets/siteArt/sig.png" width="100px">
-			</div>
-		</div>
-		<div class="row">
-			<div class="about-bar col-xs-12 col-md-3">
-				<h2> The Artist </h2>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries... <span class="more"> See More </span>
-				<h3>Contact</h3>
-			</div>
-			<div class="col-xs-12 col-md-9">
-				<div class="row">
-					<div class="col-xs-12">
-						<img class="carousel" src="assets/galleryArt/fish.jpg">
-						<div></div>
+			<div ng-controller="navCtrl">
+				<div class="about-bar col-xs-12 col-md-3">
+					<img src="assets/siteArt/sig.png" width="100px">
+					<h2> The Artist </h2>
+					<!-- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries... <span class="more"> See More </span> -->
+					<hr class="lightHR">
+					<h3>About</h3>
+					<hr class="lightHR">
+					<h3>Contact</h3>
+					<hr class="darkHR">
+					<h2>Galleries</h2>
+					<hr class="lightHR">
+					<div ng-repeat="gallery in galleries">
+						<h3>{{gallery.name}}</h3>
+						<hrclass="lightHR">
 					</div>
 				</div>
-				<div class="row">
-					<div class="dot">
+			</div>
+			<div ng-controller="galleryCtrl">
+				<div class="col-xs-12 col-md-9">
+					<div class="row">
+						<div class="col-xs-12">
+							<img class="carousel" src="assets/galleryArt/fish.jpg">
+							<div></div>
+						</div>
 					</div>
-					<div class="dot">
+					<div class="row">
+						<div class="dot">
+						</div>
+						<div class="dot">
+						</div>
 					</div>
 				</div>
 			</div>
